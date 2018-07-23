@@ -11,7 +11,7 @@ from sklearn import metrics
 from sklearn.model_selection import train_test_split
 
 
-data = pd.read_csv('C:/Users/solab/OneDrive/Documents/Data_Science_Notes/Case_Study/mitbih_train.csv')
+data = pd.read_csv('C:/Users/../data.csv')
 
 #Create a new function:
 def num_missing(x):
