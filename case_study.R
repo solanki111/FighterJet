@@ -1,5 +1,5 @@
 
-data <- read.csv("C:/Users/solab/OneDrive/Documents/Data_Science_Notes/Case_Study/mitbih_train.csv", header=T, na.strings=c(""))
+data <- read.csv("C:/Users/../Case_Study/mitbih_train.csv", header=T, na.strings=c(""))
 summary(data$BlackBox.R138)
 boxplot(data$BlackBox.R138)
 pairs(data)
